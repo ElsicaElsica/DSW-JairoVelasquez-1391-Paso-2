@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Selectores CSS</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin:  0;
+			padding: 0;
+		}
+		header {
+			background-color: #81aee9;
+			color: white;
+			padding: 35px;
+		}
+		header h1 {
+            text-align: center;
+			margin: 0;
+		}
+		header p {
+            text-align: center;
+			margin: 0;
+			font-size: 18px;
+		}
+		nav ul {
+			list-style-type: none;
+    
+			margin: 0;
+			padding: 20px;
+			background-color: #2631cc;
+			display:flex; 
+            justify-content:space-around; 
+            align-items:center; 
+            height:auto; 
+            width:auto; 
+            overflow:hidden; 
+            margin-bottom:auto; 
+            margin-top:auto; 
+        }
+        nav li {display:inline-block;}
+        nav a {display:block;padding-left:auto;padding-right:auto;text-decoration:none;color:#ffffff;font-size:auto;}
+        nav a:hover {background-color:#979797de;color:rgb(232, 235, 253);}
+        main {padding:20px;
+            text-align: center;}
+            .negrita {
+  font-weight: bold;} 
+  footer {
+    background-color: #81aee9;
+    padding: 5px;
+    text-align: center;}
+  
+ 
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos Selectores CSS</h1>
+        <p>Jairo Andres Velasquez</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio" class="negrita" style="box-shadow: 5px 5px 10px rgb(252, 249, 249); padding: 10px;">Inicio</a></li>
+            <li><a href="#tema" class="negrita" style="box-shadow: 5px 5px 10px rgb(252, 249, 249); padding: 10px;">Selectores CSS</a></li>
+            <li><a href="#mockup" class="negrita" style="box-shadow: 5px 5px 10px rgb(252, 249, 249); padding: 10px;">Mockup</a></li>  
+            <li><a href="#acerca" class="negrita" style="box-shadow: 5px 5px 10px rgb(252, 249, 249); padding: 10px;">Acerca de</a></li>  
+            
+        </ul>   
+    </nav>
+
+    <main>    
+        <section id="inicio">
+            <h2>Inicio</h2>    
+            <p align="justify">Con HTML, podemos diseñar una página web simple y atractiva en muy poco tiempo. HTML es el lenguaje de marcado estándar utilizado para crear páginas web y está compuesto de etiquetas y elementos que nos permiten dar estructura y formato a nuestro contenido. En esta actividad, aprenderemos los conceptos básicos de HTML para crear nuestra primera página web, incluyendo cómo crear encabezados, párrafos, listas, imágenes y enlaces.</p>    
+        </section>
+        
+        <section id="tema">
+            <h2>Selectores CSS</h2>    
+            <p align="justify">Los selectores CSS son una parte fundamental del lenguaje de hojas de estilo en cascada (CSS), ya que permiten definir y aplicar estilos a elementos específicos en una página web. Un selector CSS es una expresión que se utiliza para seleccionar uno o varios elementos del DOM (modelo de objetos del documento) para aplicarle un estilo en particular. Los selectores se componen de una o más reglas que describen el elemento o los elementos que deben ser seleccionados.
+
+				Hay varios tipos de selectores CSS disponibles, que se pueden clasificar en tres categorías principales: selectores simples, selectores compuestos y selectores de atributos.
+				
+				Los selectores simples son los más básicos y se utilizan para seleccionar elementos HTML específicos según su tipo o etiqueta. Por ejemplo, el selector p selecciona todos los párrafos en una página, mientras que el selector h1 selecciona todos los encabezados de nivel 1.
+				
+				Los selectores compuestos combinan múltiples selectores simples para seleccionar elementos específicos en función de su ubicación o relación en la página. Por ejemplo, el selector #id .clase selecciona todos los elementos que tienen la clase "clase" y están contenidos en un elemento con el ID "id".
+				
+				Los selectores de atributos se utilizan para seleccionar elementos que tienen un atributo HTML específico. Por ejemplo, el selector [type="text"] selecciona todos los elementos que tienen el atributo "type" con el valor "text".
+				
+				Además de estos tres tipos principales, también hay otros tipos de selectores CSS, como los selectores de pseudo-clases, que permiten seleccionar elementos en función de su estado (por ejemplo, :hover para seleccionar un elemento cuando el cursor está sobre él), y los selectores de pseudo-elementos, que permiten seleccionar y estilizar partes específicas de un elemento (por ejemplo, ::before para agregar contenido antes del contenido de un elemento).
+				
+				En resumen, los selectores CSS son una herramienta esencial para estilizar y personalizar la apariencia de una página web. Saber cómo utilizar selectores simples, compuestos y de atributos te permitirá seleccionar elementos específicos y aplicar estilos de forma más efectiva y eficiente.</p>
+        </section>
+
+        <section id="mockup">
+            <h2>Mockup</h2>    
+            <img src="imagenes/Mockup.jpg" alt="Logo de ejemplo">   
+        </section>
+    </main> 
+    <footer>
+        <section id="acerca">
+            <h2>Acerca de</h2>    
+            <p>Pagina hecha por Jairo Andres Velasquez  Fecha de actualización: 08/03/2023 Todos los derechos reservados 2023</p>    
+        </section>
+      </footer>
